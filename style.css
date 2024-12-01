@@ -10,6 +10,9 @@ html{
 body{
     font-family: "Roboto","Arial", sans-serif;
 }
+i{
+    color: black;
+}
 /* header css */
 header{
     display: flex;
@@ -76,4 +79,65 @@ border-color: #b3b2b2;
     margin-right: 20px;
     text-decoration: none;
     color: #000000;
+}
+/*content part*/
+/*aside*/
+aside{
+    width: 14%;
+    padding: 20px 20px 20px 0;
+
+}
+aside i{
+    margin-right: 0;
+}
+aside a{
+    display: block;
+    padding: 16px ;
+   text-decoration: none;
+   display: flex;
+   justify-content:left;
+   align-items: center;
+   margin-bottom: 0;
+}
+aside a:hover{
+    background-color: #d3d3d3;
+    
+}
+
+aside span{
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 20px;
+    
+}
+aside span:hover{
+    font-weight: 600;
+}
+
+.line{
+    color: #d3d3d3;
+    margin: 0;
+}
+.subscriptions{
+    margin-top: 16px;
+    width: 100%;
+
+}
+#subscriptions{
+    color: #b3b2b2;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+}
+.subscription{
+    display: flex;
+    align-items: center;
+
+}
+.subscriptions img{
+    width: 34px;
+    margin-left: 10px;
+    border-radius: 50%;
 }
